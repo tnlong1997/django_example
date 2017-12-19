@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'django-example-product.herokuapp.com',
-    'django-example-staging.herokuapp.com'
+    'django-example-staging.herokuapp.com',
+    'localhost'
 ]
 
 
