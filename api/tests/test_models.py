@@ -9,3 +9,6 @@ class TestUserModel(TestCase):
 
     def test_user_creation(self):
         self.assertEqual(User.objects.count(), 1)
+
+    def test_to_string(self):
+        self.assertEqual(self.user.username, str(self.user))
